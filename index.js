@@ -6,7 +6,6 @@ class GDSTea {
     }
   
     brew() {
-      console.log(`Brewing a cup of ${this.teaType} tea using the ${this.brewingMethod} method.`);
       setTimeout(() => {
         this.isBrewed = true;
         console.log(`Your ${this.teaType} tea is ready to bring you Great Delicious Sips!`);
